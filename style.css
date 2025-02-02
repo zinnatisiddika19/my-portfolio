@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  #navbar {
+    background-color: rgba(47, 2, 2, 0.703);
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+  
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar li {
+    margin: 0 15px;
+  }
+  
+  #navbar a {
+    font-size: 1rem;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  #navbar a:hover {
+    background-color: rgb(120, 226, 191);
+  }
+  
+  #header {
+    text-align: center;
+    background-color:rgb(90, 204, 194);
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .profile-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+  }
+  
+  .section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgb(123, 189, 145);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section:hover {
+    background-color: beige;
+  }
+  
+  .section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  
+  #experiences .experience-item {
+    margin-bottom: 15px;
+  }
+  
+  #experiences h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  #experiences p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  #education .education-item {
+    margin-bottom: 15px;
+  }
+  
+  #education h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  #education p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+  
+  
+  #interests p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  
+  #footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  #themeButton {
+    border-radius: 20px;
+    background-color: rgb(33, 19, 3);
+    color: rgb(129, 118, 97);
+  }
+  #btn {
+    text-align: center;
+  }
+  #btn:hover {
+    cursor: pointer;
+  }
+  
